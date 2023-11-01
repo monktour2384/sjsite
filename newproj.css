@@ -1,0 +1,331 @@
+body {
+padding-bottom: 20px;
+}
+
+.image1, .image2, .image3, .image4 {
+  cursor: pointer;
+}
+
+.heading1, .heading2, .heading3, .heading4 {
+  color: red;
+}
+
+.main-logo{
+  height: 250px;
+  width: 100%;
+margin-left: 0px;
+margin-top: -40px;
+}
+
+.container {
+  display:flex;
+  flex-direction: column;
+  flex: 1fr;
+  margin-top: 50px;
+}
+
+.home-page {
+  margin-top: 0px;
+  margin-left: 770px;
+  font-size: 40px;
+  color: black;
+  font-family: arial;
+}
+
+.select-category {
+  margin-left: 760px;
+  font-family: arial;
+  font-size: 40px;
+  color: purple;
+
+}
+
+.main-grid {display:grid;
+  grid-template-columns: 500px 500px;
+  margin-left: 400px;
+  margin-top: 100px;
+  column-gap: 20px;
+  row-gap: 100px;
+}
+
+.image1 {
+  width: 100%;
+  position: relative;
+}
+
+.image2 {
+width: 500px;
+height: 412.95px;
+position: relative;
+}
+
+.image3 {
+  width: 100%;
+  position: relative;
+}
+
+.image4 {
+  width: 100%;
+  position: relative;
+}
+
+.heading1 {
+  position: absolute;
+  top: 420px;
+  left: 570px;
+  font-family: cursive;
+}
+
+.heading2 {
+  position: absolute;
+  top: 420px;
+  right: 580px;
+  font-family: cursive;
+}
+
+.heading3 {
+  position: absolute;
+  top: 930px;
+  left: 520px;
+  
+  font-family: cursive;
+}
+
+.heading4 {
+  position: absolute;
+  top: 930px;
+  right: 520px;
+  font-family: cursive;
+}
+
+
+
+.bestdeal {
+  margin-left: 650px;
+  font-family: arial;
+  font-size: 60px;
+  color: red;
+}
+
+.menclothesgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+
+}
+
+.mencloth {
+  width: 100%;
+  height: 400px;
+  cursor: pointer;
+}
+.backtohomepage {
+  position: absolute;
+  top: 20px;
+  height: 35px;
+  border-width: 1px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: arial;
+  transition: opacity 0.15s;
+}
+
+.backtohomepage:hover {opacity: 0.8};
+
+
+.priceflex {
+  display:flex;
+  flex-direction: row;
+  }
+
+  .detail-item, .order-now {
+    font-family: arial;
+    color: red;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+  }
+
+  .order-now {
+    text-decoration: underline;
+  }
+
+  .price {
+    margin-left: 50px;
+  }
+
+  .whatsapp-icon {
+    width: 60px;
+    margin-left: 45px;
+    height: 50px;
+
+  }
+
+  .contactme {
+    display: flex;
+    align-items: center;
+  }
+  
+  .number {
+    font-size: 30px;
+    margin-left: 20px;
+    color: red;
+  }
+
+  @media screen and (max-width: 700px)
+  {
+    .home-page {
+  margin-top: 20px;
+  margin-left: 135px;
+  font-size: 20px;
+  color: black;
+  font-family: arial;
+  white-space: nowrap;
+}
+
+  .main-logo{
+      height: 100px;
+      width: 100%;
+margin-top: -15px;
+    }
+    
+.select-category {
+  margin-top: 50px;
+      margin-left: 70px;
+      font-family: arial;
+      font-weight: bold;
+      font-size: 30px;
+      color: purple;
+      white-space: nowrap;
+}
+    
+.main-grid {display:grid;
+  grid-template-columns: 150px 150px;
+  margin-left: 25px;
+  margin-top: 60px;
+  column-gap: 10px;
+  row-gap: 70px; 
+}
+
+
+.image1 {
+  height: 87.58px;
+  width: 100%;
+  position: relative;
+}
+
+.image2 {
+  height: 87.58px;
+  width: 100%;
+  position: relative;
+  }
+
+  .image3 {
+    height: 87.58px;
+    width: 100%;
+    position: relative;
+  }
+
+  .image4 {
+    height: 87.58px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .heading1 {
+    position: absolute;
+    top: 270px;
+    left: 50px;
+    font-family: cursive;
+    font-size: 18px;
+  }
+  
+  .heading2 {
+    position: absolute;
+    top: 270px;
+    right: 70px;
+    font-family: cursive;
+    font-size: 18px;
+  }
+  
+  .heading3 {
+    position: absolute;
+    top: 430px;
+    left: 30px;
+    font-size: 18px;
+    
+    font-family: cursive;
+  }
+  
+  .heading4 {
+    position: absolute;
+    top: 430px;
+    right: 40px;
+    font-size: 18px;
+    font-family: cursive;
+  }
+  
+}
+
+@media screen and (max-width: 700px)
+{
+  .backtohomepage {
+    position: absolute;
+    top: 20px;
+    height: 35px;
+    border-width: 1px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: arial;
+    transition: opacity 0.15s;
+  }
+
+  .bestdeal {
+    margin-left: 70px;
+    margin-top: 70px;
+    font-family: arial;
+    font-size: 30px;
+    color: red;
+    white-space: nowrap;
+  }
+
+  .menclothesgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+  }
+
+  .detail-item, .order-now {
+    font-family: arial;
+    color: red;
+    font-size: 18px;
+    margin-left: 18px;
+    margin-bottom: 0px;
+    line-height: 15px;
+    white-space: nowrap;
+  }
+
+  .whatsapp-icon{
+    width: 40px;
+    margin-left: 15px;
+    height: 40px;
+
+  }
+
+  .number {
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: green;
+  }
+.mencloth {
+  width: 100%;
+  height:400px;
+}
+ 
+}
+  
